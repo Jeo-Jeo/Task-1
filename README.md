@@ -1,2 +1,3 @@
 # Task-1
 Data Cleaning &amp; Preprocessing
+Basically, this code is getting the Titanic data ready for analysis. First, it loads the data and takes a look at it to see what's there and if anything's missing. Then, it cleans up the missing bits – like filling in the average age where it's missing, labeling the unknown cabins, and getting rid of any rows where we don't know where someone embarked. After that, it turns categories like 'male'/'female' and the embarkation points into numbers that a computer can understand. It also scales down the numbers for 'Age' and 'Fare' so they're all on a similar playing field. Finally, it finds and removes any really extreme values in the 'Age' column and saves the cleaned-up data into a new file.
